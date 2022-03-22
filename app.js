@@ -27,15 +27,10 @@ async function convertFile(file) {
             console.log("Process: "+ stdout)
         }) 
 
-        ls.on('exit', function (code)
-        {
-            //console.log('[ffmpeg] Child process exited with exit code ' + code);
-            if (code != 0)
-            {
+        ls.on('exit', function (code) {
+            if (code != 0) {
                 reject(false);
-            }
-            else
-            {
+            } else {
                 resolve(`${file}.gif`);
             }
         });
