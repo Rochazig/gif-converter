@@ -10,6 +10,6 @@ ________________________________________________________________________________
 
 ### ```ffmpeg``` was used together with ```child_process``` to cut and convert the video.
 
-**- I used ```child_process``` to be able to execute commands in the terminal with NodeJS**
+- **I used ```child_process``` to be able to execute commands in the terminal with NodeJS**
 
-**- I used ```ffmpeg``` to cut the video and then convert it to GIF**
+- **I used ```ffmpeg``` to cut the video and then convert it to GIF**
