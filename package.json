@@ -1,0 +1,12 @@
+{
+  "name": "convert-gif",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Rochazig",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}

@@ -1,0 +1,4 @@
+*.mp4
+*.lock
+*.gif
+node_modules/
